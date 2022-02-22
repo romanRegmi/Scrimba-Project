@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.card-container{
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 65px;
+    display: flex;
+    max-height: 200px;
+    gap:25px;
+}
+
+.card--image{
+    width:125px;
+    height:168px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-description{
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    font-family: 'Inter';
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.google-location{
+    display: flex;
+    align-items: center;
+    font-size: 10.24px;
+    line-height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    gap:2px;
+
+}
+
+.card-date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+
+.card-maps{
+    margin-left: 8px;
+    text-decoration: underline;
+    color: #918E9B;
+}
